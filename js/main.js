@@ -1,12 +1,11 @@
 // //HOME BEST SELLERS
 let url = window.location.pathname;
-
-// if(url == '/contact.html') torte()  
-
+  
 
 
 
-if(url == "/index.html") {
+
+if(url == "/https://marijana-papic.github.io/makosweetshop/index.html") {
 var slideIndex = 1;
 
 showDivs(slideIndex);
@@ -28,7 +27,7 @@ function showDivs(n) {
 }
 }
 
-if(url == '/contact.html') formValidation() 
+if(url == '/https://marijana-papic.github.io/makosweetshop/contact.html') formValidation() 
 
 function formValidation(){
   // form validation
