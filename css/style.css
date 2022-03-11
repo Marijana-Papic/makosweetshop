@@ -41,6 +41,12 @@ a{
     color: black;
     text-decoration: none;
 }
+.navbar-light .navbar-toggler {
+    border-color: #A68F51 !important;
+}
+.navbar-toggler:hover{
+    background-color: #A68F51 !important;
+}
 .container-fluid{
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -62,12 +68,6 @@ li{
 .navbar-brand img{
     width: 25%;
 }
-.nav-item a{
-    font-weight: 500;
-}
-.nav-item a i:hover{
-    color: #A68F51;
-}
 #cover{
     background: url(../img/header-bg.jpg);
     height: 90vh;
@@ -82,10 +82,12 @@ li{
 }
 .nav-link{
     color: black !important;
+    border-bottom: 3px solid #fff;
 }
-.active{
+.nav-link:hover{
     color: #A68F51 !important;
-    border-bottom: 2px solid #A68F51;
+    border-bottom: 3px solid #A68F51;
+    transition: all .7s;
 }
 /* Offers home */
 
@@ -146,42 +148,6 @@ li{
     cursor: pointer;
 }
 
-/* Instagram */
-.instagram__text {
-    padding-top: 90px;
-  }
-  .instagram__text .section-title {
-    margin-bottom: 55px;
-  }
-  .instagram__text h5 {
-    font-size: 20px;
-    color: #444444;
-    position: relative;
-    z-index: 1;
-  }
-  .instagram__text h5:after {
-    position: absolute;
-    left: 0;
-    top: -34px;
-    background: url(../img/instagram/cake-piece.png) no-repeat;
-    height: 139px;
-    width: 114px;
-    content: "";
-  }
-  .instagram__text h5 i {
-    color: #111111;
-    font-size: 36px;
-    position: relative;
-    top: 6px;
-    margin-right: 8px;
-  }
-  
-  .instagram__pic {
-    margin-bottom: 30px;
-  }
-  .instagram__pic img {
-    min-width: 100%;
-  }
 /* footer */
 .social i{
     padding: 0 10px
@@ -281,5 +247,5 @@ select{
 }
 
 .loading img {
-	width: 10%;
+	width: 7%;
 }

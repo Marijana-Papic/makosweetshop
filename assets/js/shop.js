@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ajaxData("occasion", displayOccasion)
 })
 
-//-Ispis kategorija "durability"
+//-Ispis kategorija
 function displayOccasion(data){
   let html = "";
   for(const d of data){
