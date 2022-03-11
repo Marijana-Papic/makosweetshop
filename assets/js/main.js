@@ -1,63 +1,24 @@
-// header text slider
-var $slide = $('.slide'),
-    $slideGroup = $('.slide-group'),
-    $bullet = $('.bullet');
+// //HOME BEST SELLERS
+let url = window.location.pathname;
 
-var slidesTotal = ($slide.length - 1),
-    current = 0,
-    isAutoSliding = true;
+// if(url == '/contact.html') torte()  
 
-$bullet.first().addClass('current');
 
-var clickSlide = function() {
-  //stop auto sliding
-  window.clearInterval(autoSlide);
-  isAutoSliding = false;
 
-  var slideIndex = $bullet.index($(this));
 
-  updateIndex(slideIndex);
-};
-
-var updateIndex = function(currentSlide) {
-  if(isAutoSliding) {
-    if(current === slidesTotal) {
-      current = 0;
-    } else {
-      current++;
-    }
-  } else {
-      current = currentSlide;
-  }
-
-  $bullet.removeClass('current');
-  $bullet.eq(current).addClass('current');
-
-  transition(current);
-};
-
-var transition = function(slidePosition) {
-    $slideGroup.animate({
-      'top': '-' + slidePosition + '00%'
-    });
-};
-
-$bullet.on( 'click', clickSlide);
-
-var autoSlide = window.setInterval(updateIndex, 2000);
-
-//HOME BEST SELLERS
-
+if(url == "/index.html") {
 var slideIndex = 1;
+
 showDivs(slideIndex);
 
 function plusDivs(n) {
-  showDivs(slideIndex += n);
+  slideIndex += n
+  showDivs(slideIndex)
 }
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.querySelectorAll(".mySlides");
   if(n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
@@ -65,8 +26,12 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+}
 
-// form validation
+if(url == '/contact.html') formValidation() 
+
+function formValidation(){
+  // form validation
 
 var imePrezime = document.getElementById("imePrezime");
 var email = document.getElementById("email");
@@ -140,7 +105,6 @@ function checkMsg() {
  }
 
 }
-
  var btnSubmitMessage = document.getElementById("btnSubmitMessage");
 
   btnSubmitMessage.addEventListener("click", function() {
@@ -161,36 +125,54 @@ function checkMsg() {
   
 }
 });
+var select = document.getElementById("subject");
+var error_op = document.getElementById("modal-error-op");
+select.addEventListener("click",checkOption);
 
-
-
-//TESTEMONIAL
-
-jQuery(document).ready(function($) {
-  "use strict";
-  //  TESTIMONIALS CAROUSEL HOOK
-  $('#customers-testimonials').owlCarousel({
-      loop: true,
-      center: true,
-      items: 3,
-      margin: 0,
-      autoplay: true,
-      dots:true,
-      autoplayTimeout: 8500,
-      smartSpeed: 450,
-      responsive: {
-        0: {
-          items: 1
-        },
-        768: {
-          items: 2
-        },
-        1170: {
-          items: 3
+function checkOption(){
+        if (select.value == "subject") {
+            error_op.innerHTML = "Please select a subject"
+            error_op.style.color = "red"
         }
-      }
-  });
-});
+        else{
+          error_op.innerHTML = "Subject is valid."
+          error_op.style.color = "green"
+        }
+  }
 
+}
+
+
+// to top button
+
+window.onscroll = function () {
+  scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("movetop").style.display = "block";
+  } else {
+    document.getElementById("movetop").style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// //preloader
+
+$(window).ready(() => {
+  setTimeout(() => {
+      $('.loading').animate({
+          opacity: 0
+      }, 500)
+  }, 2000)
+
+  setTimeout(() => {
+      $('.loading').remove()
+  }, 3000)
+})
 
 

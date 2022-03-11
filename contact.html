@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>MAKO's cake shop | Home</title>
+        <meta name="keywords" content=" " />
+		    <link rel="shortcut icon" href="assets/img/makoLogo.png" />
+
+        <!--Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <!-- AOS -->
+	    	<link href = "https://unpkg.com/aos@2.3.1/dist/aos.css" rel = "stylesheet" />
+
+        <!-- Font awesome 5 -->
+		    <script src="https://kit.fontawesome.com/d66833be4d.js" crossorigin="anonymous"></script>
+
+        <!--Template CSS-->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+
+        <!-- Template responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+
+        <!-- jQuery -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+
+        <!-- JavaScript -->
+        <script src="assets/js/main.js" defer></script>
+
+        <!--Owl Carousel-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- preloader -->
+    <div class="loading">
+      <img src="assets/img/preloader.gif" alt="Loading">
+    </div>
+    <!--START HEADER -->        
+    <header>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="navbar navbar-expand-lg navbar-light my-3">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="assets/img/makoLogo.png" alt="Mako Logo."></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav m-auto align-items-center">
+                            <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="shop.html">SHOP</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" href="contact.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="shoping-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                  </nav>
+              </div>
+          </div>         
+      </div>      
+</header>
+<main>
+  <div id="contact-cover" class="w-100 text-center">
+    <!-- CONTACT START -->
+    <div class="container">
+      <div class="row">
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2 m-auto  bg-contact">
+            <div class="heading">
+              <h2>CONTACT US</h2>
+              <div class="underline"></div>
+            </div>
+            <form id="contactForm">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" id="imePrezime" class="form-control" placeholder="Name">
+                    <span id="error-name"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" id="email" class="form-control" placeholder="Email">
+                    <span id="error-email"></span>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" id="number" class="form-control" placeholder="06xxxxxxxx">
+                    <span id="error-number"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <select name="day" id="subject" class="form-control" style="color: #6C757D; border: none; border-bottom: 1px solid black;">
+                      <option class="opa" value="subject">Subject</option>
+                      <option class="opa" value="1">Order</option>
+                      <option class="opa" value="2">Scheduling</option>
+                      <option class="opa" value="3">Delivery delay</option>
+                    </select>
+                    <span id="modal-error-op"></span>
+                  </div>
+                </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+                  <span id="error-message"></span>
+                </div>
+              </div>
+           </div>
+              <button type="button" class="mp-btn btn btn-default" id="btnSubmitMessage">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- CONTACT END -->
+  </div>
+      <!-- MAP START-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11321.435429847032!2d20.4844148!3d44.8142534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc17ed71f59ac4725!2z0JLQuNGB0L7QutCwINCY0KbQoiDRiNC60L7Qu9Cw!5e0!3m2!1ssr!2srs!4v1646916031937!5m2!1ssr!2srs" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt-5"></iframe>
+      <!-- MAP END -->
+</main>
+<footer>
+    <div class="container-fluid bg-fw">
+      <div class="row">
+        <div class="col-12 col-md-4 text-center">
+          <h4 class="mb-4">WORKING HOURS</h4>
+          <p>Monday - Friday: 08:00 - 21:00</p>
+          <p>Saturday: 8:00 - 18:00</p>
+          <p>Sunday: 10:00 - 15:00</p>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <h4 class="mb-4">CONTACT US</h4>
+          <p>
+            <i class="fa fa-solid fa-map-pin px-2"></i>
+            Zdravka Celara 16
+          </p>
+          <p>
+            <i class="fa fa-solid fa-phone px-2"></i>
+            0123456789
+          </p>
+          <p>
+            <i class="fa fa-solid fa-envelope px-2"></i>
+            makoscakeshop@gmail.com
+          </p>
+        </div>
+        <div class="col-12 col-md-4 text-center social">
+          <h4 class="mb-4">FOLLOW US</h4>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-solid fa-sitemap"></i></a>
+            <a href="#"><i class="fa fa-solid fa-file"></i></a>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block;">
+      <span class="fa fa-solid fa-arrow-up" aria-hidden="true"></span>
+    </button>
+    <div class="col-md-12 text-center bg-dark">
+      <p style="color: white; padding: 10px; margin: 0 !important;">Copyright 2022 Marijana Papic</p>
+    </div>
+  </footer>
+
+
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!-- JQUERY -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+      <!--Owl Carousel-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>MAKO's sweet shop | Home</title>
+        <title>MAKO's cake shop | Home</title>
         <meta name="keywords" content=" " />
 		    <link rel="shortcut icon" href="assets/img/makoLogo.png" />
 
@@ -23,6 +23,9 @@
         <!-- Template responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
 
+        <!-- jQuery -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+
         <!-- JavaScript -->
         <script src="assets/js/main.js" defer></script>
 
@@ -31,6 +34,10 @@
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
 </head>
 <body>
+  <!-- preloader -->
+  <!-- <div class="loading">
+    <img src="assets/img/preloader.gif" alt="Loading">
+  </div> -->
     <!--START HEADER -->        
     <header>
       <div class="container">
@@ -56,9 +63,8 @@
                             <li class="nav-item">
                               <a class="nav-link" href="contact.html">CONTACT</a>
                             </li>
-                            <li class="d-flex">
-                              <i class="fa fa-solid fa-heart px-3"></i>
-                              <i class="fas fa-shopping-cart"></i>
+                            <li class="nav-item">
+                              <a class="nav-link" href="shoping-cart.html"><i class="fas fa-shopping-cart"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -70,7 +76,12 @@
       <div class="w-100 p-0">
         <div class="row w-100 p-0">
           <div class="col-12 w-100 p-0">
-            <div id="cover" class="w-100">
+            <div id="cover" class="w-100 text-center">
+              <div class="cover-text">
+                <h1 style="color: white; font-size: 50px;">WELCOME TO THE MAKO'S CAKE SHOP</h1>
+                <p style="font-size: 30px; color: white;">Great taste in every bite.</p>
+                <a href="shop.html" class="mp-btn">SHOP NOW</a>
+              </div>  
             </div>
           </div>
         </div>
@@ -79,26 +90,46 @@
     </header>
     <!-- END HEADER -->
     <main>
+            <!-- OFFERS START-->
+            <div class="container">
+              <div class="row offers-section">
+                  <div class="col-lg-3 col-md-6 offer text-center">
+                    <img src="assets/img/delivery-time.png" alt="Delivery truck."/>
+                    <p class="pt-3">Delivery within three to four days</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 offer text-center">
+                    <img src="assets/img/tag.png" alt="Discount tag."/>
+                    <p class="pt-3">10% discount on orders over $150</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 offer text-center">
+                    <img src="assets/img/cake.png" alt="Cake."/>
+                    <p class="pt-3">Delicious cakes to remember</p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 offer text-center">
+                    <img src="assets/img/free.png" alt="Free delivery">
+                    <p class="pt-3">Free shipping for orders over $80</p>
+                  </div>
+              </div>
+            </div>
+          <!-- OFFERS END -->
       <!-- ABOUT SECTION START-->
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="heading">
             <h2>ABOUT</h2>
             <div class="underline"></div>
           </div>
-          <div class="col-12 col-md-6 p-5">
+          <div class="col-12 col-md-6 p-5 m-auto">
             <div class="about-text-home">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                Why do we use it?
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (i
+                Mako's Cake Shop was founded by a team of passionate and dedicated bakers who are committed in baking the most delicious cakes around. Using only the freshest ingredients we can find, you can be sure that you are served the best quality cake you can ever have. We are committed to using high end and local ingredients. Here at the shop we believe in small batch baking and providing top quality cakes.
+                So whether a birthday, a dinner party, a wedding or shower, let us help you cater your next special event!
               </p>  
-              <a href="about.html">LEARN MORE</a>
+              <a href="about.html" class="mp-btn">LEARN MORE</a>
           </div>
           </div>
-          <div class="col-12 col-md-6 about-image-home p-0">
-            <img src="assets/img/about-image-home.jpg" alt="Donuts." class="img-fluid w-100"/>
+          <div class="col-12 col-md-6">
+            <img src="assets/img/about-image-home.jpg" alt="Donuts." class="img-fluid"/>
           </div>
         </div>
       </div>
@@ -111,34 +142,36 @@
                 <h2>SHOP BEST SELLERS</h2>
                 <div class="underline"></div>
               </div>
-              <div class="wrapper">                
-                <div class="mySlides">
-                  <div class="d-flex">
-                      <div class="column">
-                        <img src="assets/img/bs1.jpg">
-                      </div>
-                      <div class="column">
-                        <img src="assets/img/bs2.jpg">
-                      </div>      
-                      <div class="column">
-                        <img src="assets/img/bs3.jpg">
-                      </div>
-                  </div>
-                </div>
-                <div class="mySlides">
-                  <div class="d-flex">
-                    <div class="column">
-                      <img src="assets/img/bs4.jpg">
-                    </div>
-                    <div class="column">
-                      <img src="assets/img/bs5.jpg">
-                    </div>
-                    <div class="column">
-                      <img src="assets/img/bs6.jpg">
+              <a href="shop.html"> 
+                <div class="wrapper">     
+                  <div class="mySlides">
+                    <div class="d-flex">
+                        <div class="column">
+                          <img src="assets/img/kids3.jpg">
+                        </div>
+                        <div class="column">
+                          <img src="assets/img/bs2.jpg">
+                        </div>      
+                        <div class="column">
+                          <img src="assets/img/wedding3.jpg">
+                        </div>
                     </div>
                   </div>
+                  <div class="mySlides">
+                    <div class="d-flex">
+                      <div class="column">
+                        <img src="assets/img/wedding4.jpg">
+                      </div>
+                      <div class="column">
+                        <img src="assets/img/bs5.jpg">
+                      </div>
+                      <div class="column">
+                        <img src="assets/img/birthday3.jpg">
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </a>   
               <div class="navigate">
                 <a class="btn1" onclick="plusDivs(-1)">	&#8592</a>
                 <a class="btn1" onclick="plusDivs(1)">	&#8594</a>
@@ -147,61 +180,21 @@
         </div>
       </div>
     <!-- BEST SELLERS END  -->
-    <!-- CONTACT START -->
-      <div class="container-fluid my-5">
-        <div class="row">
-          <div class="container">
-            <div class="col-md-8 col-md-offset-2 m-auto">
-              <div class="heading">
-                <h2>CONTACT US</h2>
-                <div class="underline"></div>
-              </div>
-              <form id="contactForm">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" id="imePrezime" class="form-control" placeholder="Name">
-                      <span id="error-name"></span>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="email" id="email" class="form-control" placeholder="Email">
-                      <span id="error-email"></span>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" id="number" class="form-control" placeholder="06xxxxxxxx">
-                      <span id="error-number"></span>
-                    </div>
-                  </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
-                    <span id="error-message"></span>
-                  </div>
-                </div>
-             </div>
-                <button type="button" class="btn btn-default" id="btnSubmitMessage">SEND MESSAGE</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    <!-- CONTACT END -->
+    <!-- Instagram Section Begin -->
+    
+    <!-- Instagram Section End -->
     </main>
     <footer>
       <div class="container-fluid bg-fw">
         <div class="row">
           <div class="col-12 col-md-4 text-center">
-            <h4>WORKING HOURS</h4>
+            <h4 class="mb-4">WORKING HOURS</h4>
             <p>Monday - Friday: 08:00 - 21:00</p>
             <p>Saturday: 8:00 - 18:00</p>
             <p>Sunday: 10:00 - 15:00</p>
           </div>
           <div class="col-12 col-md-4 text-center">
-            <h4>CONTACT US</h4>
+            <h4 class="mb-4">CONTACT US</h4>
             <p>
               <i class="fa fa-solid fa-map-pin px-2"></i>
               Zdravka Celara 16
@@ -216,28 +209,22 @@
             </p>
           </div>
           <div class="col-12 col-md-4 text-center social">
-            <h4>FOLLOW US</h4>
-              <i class="fa fa-brands fa-instagram"></i>
-              <i class="fa fa-brands fa-facebook"></i>
-              <i class="fa fa-brands fa-youtube"></i>
+            <h4 class="mb-4">FOLLOW US</h4>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-solid fa-sitemap"></i></a>
+              <a href="#"><i class="fa fa-solid fa-file"></i></a>
           </div>
         </div>
       </div>
+      <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block;">
+        <span class="fa fa-solid fa-arrow-up" aria-hidden="true"></span>
+      </button>
       <div class="col-md-12 text-center bg-dark">
         <p style="color: white; padding: 10px; margin: 0 !important;">Copyright 2022 Marijana Papic</p>
       </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
 
 
         <!-- Bootstrap JS -->

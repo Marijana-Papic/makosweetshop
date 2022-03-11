@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "taste": "Chocolate"
+    },
+    {
+        "id": 2,
+        "taste": "Vanilla"
+    },
+    {
+        "id": 3,
+        "taste": "Fruit"
+    }
+]

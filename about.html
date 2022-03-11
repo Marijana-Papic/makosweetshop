@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>MAKO's sweet shop | About</title>
+        <title>MAKO's cake shop | About</title>
         <meta name="keywords" content=" " />
 		    <link rel="shortcut icon" href="assets/img/makoLogo.png" />
 
@@ -15,7 +15,7 @@
 	    	<link href = "https://unpkg.com/aos@2.3.1/dist/aos.css" rel = "stylesheet" />
 
         <!-- Font awesome 5 -->
-        <script src="https://kit.fontawesome.com/1e51315847.js" crossorigin="anonymous"></script>
+		    <script src="https://kit.fontawesome.com/d66833be4d.js" crossorigin="anonymous"></script>
 
         <!--Template CSS-->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
@@ -23,19 +23,26 @@
         <!-- Template responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
 
+        <!-- jQuery -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+
         <!-- JavaScript -->
         <script src="assets/js/main.js" defer></script>
-        
+
         <!--Owl Carousel-->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
 </head>
 <body>
+    <!-- preloader -->
+    <div class="loading">
+      <img src="assets/img/preloader.gif" alt="Loading">
+    </div>
     <!--START HEADER -->        
     <header>
       <div class="container">
           <div class="row">
-              <div class="col-md-12">
+              <div class="col-12">
                   <nav class="navbar navbar-expand-lg navbar-light my-3">
                       <div class="container-fluid">
                         <a class="navbar-brand" href="#"><img src="assets/img/makoLogo.png" alt="Mako Logo."></a>
@@ -43,7 +50,7 @@
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav m-auto">
+                          <ul class="navbar-nav m-auto align-items-center">
                             <li class="nav-item">
                               <a class="nav-link" aria-current="page" href="index.html">HOME</a>
                             </li>
@@ -56,10 +63,13 @@
                             <li class="nav-item">
                               <a class="nav-link" href="contact.html">CONTACT</a>
                             </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="shoping-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
                           </ul>
                         </div>
                       </div>
-                    </nav>
+                  </nav>
               </div>
           </div>
       </div>
@@ -73,101 +83,62 @@
                         <div class="underline"></div>
                     </div>
                     
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentiallyd in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                    sometimes by accident, sometimes on purpose (i</p>
+                    <p>
+                    Mako's Cake Shop was founded by a team of passionate and dedicated bakers who are committed
+                    in baking the most delicious cakes around. Using only the freshest ingredients we can find, you 
+                    can be sure that you are served the best quality cake you can ever have. We are committed to using 
+                    high end and local ingredients. Here at the shop we believe in small batch baking and providing top quality cakes.
+                    So whether a birthday, a dinner party, a wedding or shower, let us help you cater your next special event!
+                    </p>
                 </div>
                 <div class="col-12 col-md-6 about-bg">
-                    <img src="assets/img/about-bg.jpg" alt="Strawberry cake." class="img-fluid"/>
+                    <img src="assets/img/about-bg.jpg" alt="Strawberry cake." class="img-fluid pb-5"/>
                 </div>           
             </div>
         </div>
-            <!-- END HEADER -->
-              <!-- Testimonial Section Begin -->
-    <section class="testimonial spad">
+    <!-- END HEADER -->
+    <!-- START TESTIMONIALS -->
+
+    <!-- END TESTIMONIALS -->
+    <!-- START AUTHOR -->
+    <section>
       <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <div class="section-title">
-                      <span>Testimonial</span>
-                      <h2>Our client say</h2>
-                  </div>
+          <div class="row mb-3">
+              <div class="col-12 col-md-6">
+                  <img src="assets/img/mp-about.jpg" alt="Author's photo." class="img-fluid">
               </div>
+              <div class="col-12 col-md-6">
+                <div class="heading" style="margin: 15px; padding: 0; letter-spacing: 3px;">
+                  <h2>ABOUT AUTHOR</h2>
+                  <div class="underline mb-2"></div>
+                </div>
+                  <p class="pl-2 w-100">
+                      My name is Marijana Papić 162/20. I was born in Belgrade. I'm 19 years old. 
+                      I went to Architectural Technical High School. 
+                      In the meantime, I realized that I didn't find myself in that, so I decided to enroll in ICT college.   
+                  I want to be a web developer.
+                  So far I have learned HTML, CSS, JavaScript, responsive design and bootstrap.
+                  </p>
+                  <a href="https://marijana-papic.github.io/marijana-papic-Portfolio/" target="_blank">
+                      <button type="button" class="btn mp-btn px-3 ml-1 mt-0">PORTFOLIO</button>
+                  </a>
+              </div> 
           </div>
-          <!-- TESTIMONIALS -->
-      <section class="testimonials">
-    <div class="container">
-
-      <div class="row">
-          <div class="col-sm-12">
-          <div id="customers-testimonials" class="owl-carousel">
-
-          <!--TESTIMONIAL 1 -->
-          <div class="item">
-            <div class="shadow-effect">
-              <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-              <p>Hi, sorry it’s late, but wanted to say thanks for the beautiful cake! It was amazing!</p>
-            </div>
-            <div class="testimonial-name">EMILY</div>
-          </div>
-          <!--END OF TESTIMONIAL 1 -->
-          <!--TESTIMONIAL 2 -->
-          <div class="item">
-            <div class="shadow-effect">
-              <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-              <p>A huge thank you for making a spectacular wedding cake for our big day! It tasted as good as it looked and our guests were all asking for leftovers!! Absolutely delightful to work with and a top quality cake!”</p>
-            </div>
-            <div class="testimonial-name">ANNA</div>
-          </div>
-          <!--END OF TESTIMONIAL 2 -->
-          <!--TESTIMONIAL 3 -->
-          <div class="item">
-            <div class="shadow-effect">
-              <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-              <p>I would like to thank you for the beautiful wedding cake which you made for our wedding day. Everyone loved the cake with comments such as “ this is the best cake they have ever had before” Thank you so much”</p>
-            </div>
-            <div class="testimonial-name">LARA</div>
-          </div>
-          <!--END OF TESTIMONIAL 3 -->
-          <!--TESTIMONIAL 4 -->
-          <div class="item">
-            <div class="shadow-effect">
-              <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-              <p>Fantastic cake, beautifully designed and crafted. Everyone commented on how delicious the cake was on the day!</p>
-            </div>
-            <div class="testimonial-name">IAN</div>
-          </div>
-          <!--END OF TESTIMONIAL 4 -->
-          <!--TESTIMONIAL 5 -->
-          <div class="item">
-            <div class="shadow-effect">
-              <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-              <p>Absolutely amazing. Everyone loved the wedding cake and suited the venue perfectly.</p>
-            </div>
-            <div class="testimonial-name">MICHAEL</div>
-          </div>
-          <!--END OF TESTIMONIAL 5 -->
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <!-- END OF TESTIMONIALS -->    
       </div>
   </section>
-  <!-- Testimonial Section End -->
+    <!-- END AUTHOR -->
     </main>
     <footer>
       <div class="container-fluid bg-fw">
         <div class="row">
           <div class="col-12 col-md-4 text-center">
-            <h4>WORKING HOURS</h4>
+            <h4 class="mb-4">WORKING HOURS</h4>
             <p>Monday - Friday: 08:00 - 21:00</p>
             <p>Saturday: 8:00 - 18:00</p>
             <p>Sunday: 10:00 - 15:00</p>
           </div>
           <div class="col-12 col-md-4 text-center">
-            <h4>CONTACT US</h4>
+            <h4 class="mb-4">CONTACT US</h4>
             <p>
               <i class="fa fa-solid fa-map-pin px-2"></i>
               Zdravka Celara 16
@@ -182,17 +153,23 @@
             </p>
           </div>
           <div class="col-12 col-md-4 text-center social">
-            <h4>FOLLOW US</h4>
-              <i class="fa fa-brands fa-instagram"></i>
-              <i class="fa fa-brands fa-facebook"></i>
-              <i class="fa fa-brands fa-youtube"></i>
+            <h4 class="mb-4">FOLLOW US</h4>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-solid fa-sitemap"></i></a>
+              <a href="#"><i class="fa fa-solid fa-file"></i></a>
           </div>
         </div>
       </div>
+      <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block;">
+        <span class="fa fa-solid fa-arrow-up" aria-hidden="true"></span>
+      </button>
       <div class="col-md-12 text-center bg-dark">
         <p style="color: white; padding: 10px; margin: 0 !important;">Copyright 2022 Marijana Papic</p>
       </div>
     </footer>
+
 
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

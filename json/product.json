@@ -1,0 +1,268 @@
+[
+    {
+        "id": 1,
+        "title": "Wedding cake",
+        "image":{
+            "src": "assets/img/wedding1.jpg",
+            "alt": "Wedding Cake 1"
+        },
+        "taste": 1,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 200
+        },
+        "occasion": 1
+    },
+    {
+        "id": 2,
+        "title": "Wedding cake",
+        "image":{
+            "src": "assets/img/wedding2.jpg",
+            "alt": "Wedding cake 2"
+        },
+        "taste": 2,
+        "price":{
+            "oldPrice": 150,
+            "newPrice": 120
+        },
+        "occasion": 1
+    },
+    {
+        "id": 3,
+        "title": "Wedding cake",
+        "image":{
+            "src": "assets/img/wedding3.jpg",
+            "alt": "Wedding cake 3"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": 280,
+            "newPrice": 250
+        },
+        "occasion": 1
+    },
+    {
+        "id": 4,
+        "title": "Wedding cake",
+        "image":{
+            "src": "assets/img/wedding4.jpg",
+            "alt": "Wedding cake 4"
+        },
+        "taste": 1,
+        "price":{
+            "oldPrice": 350,
+            "newPrice": 300
+        },
+        "occasion": 1
+    },
+    {
+        "id": 5,
+        "title": "Wedding cake",
+        "image":{
+            "src": "assets/img/wedding5.jpg",
+            "alt": "Wedding cake 5"
+        },
+        "taste": 2,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 180
+        },
+        "occasion": 1
+    },
+    {
+        "id": 6,
+        "title": "Kids birthday cake",
+        "image":{
+            "src": "assets/img/kids1.jpg",
+            "alt": "Kids cake 1"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": 70,
+            "newPrice": 50
+        },
+        "occasion": 3
+    },
+    {
+        "id": 7,
+        "title": "Kids birthday cake",
+        "image":{
+            "src": "assets/img/kids2.jpg",
+            "alt": "Kids cake 2"
+        },
+        "taste": 2,
+        "price":{
+            "oldPrice": 80,
+            "newPrice": 50
+        },
+        "occasion": 3
+    },
+    {
+        "id": 8,
+        "title": "Kids birthday cake",
+        "image":{
+            "src": "assets/img/kids3.jpg",
+            "alt": "Kids cake 3"
+        },
+        "taste": 1,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 45
+        },
+        "occasion": 3
+    },
+    {
+        "id": 9,
+        "title": "Kids birthday cake",
+        "image":{
+            "src": "assets/img/kids4.jpg",
+            "alt": "Kids cake 4"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 60
+        },
+        "occasion": 3
+    },
+    {
+        "id": 10,
+        "title": "Birthday cake",
+        "image":{
+            "src": "assets/img/birthday1.jpg",
+            "alt": "Birthday cake 4"
+        },
+        "taste": 1,
+        "price":{
+            "oldPrice": 70,
+            "newPrice": 45
+        },
+        "occasion": 2
+    },
+    {
+        "id": 11,
+        "title": "Birthday cake",
+        "image":{
+            "src": "assets/img/birthday2.jpg",
+            "alt": "Birthday cake 4"
+        },
+        "taste": 2,
+        "price":{
+            "oldPrice": 90,
+            "newPrice": 60
+        },
+        "occasion": 2
+    },
+    {
+        "id": 12,
+        "title": "Birthday cake",
+        "image":{
+            "src": "assets/img/birthday3.jpg",
+            "alt": "Birthday cake 4"
+        },
+        "taste": 2,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 100
+        },
+        "occasion": 2
+    },
+    {
+        "id": 13,
+        "title": "Birthday cake",
+        "image":{
+            "src": "assets/img/birthday4.jpg",
+            "alt": "Birthday cake 4"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 65
+        },
+        "occasion": 2
+    },
+    {
+        "id": 14,
+        "title": "Almond & Raspberry Cake",
+        "image":{
+            "src": "assets/img/bs1.jpg",
+            "alt": "Anniversary cake 1"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 25
+        },
+        "occasion": 4
+    },
+    {
+        "id": 15,
+        "title": "Victoria Sponge Cake",
+        "image":{
+            "src": "assets/img/bs2.jpg",
+            "alt": "Anniversary cake 2"
+        },
+        "taste": 2,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 20
+        },
+        "occasion": 4
+    },
+    {
+        "id": 16,
+        "title": "Raspberry Ripple Cake",
+        "image":{
+            "src": "assets/img/bs3.jpg",
+            "alt": "Anniversary cake 3"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": null,
+            "newPrice": 30
+        },
+        "occasion": 4
+    },
+    {
+        "id": 17,
+        "title": "Choc Chip Cookie Cake",
+        "image":{
+            "src": "assets/img/bs4.jpg",
+            "alt": "Anniversary cake 5"
+        },
+        "taste": 1,
+        "price":{
+            "oldPrice": 60,
+            "newPrice": 45
+        },
+        "occasion": 4
+    },
+    {
+        "id": 18,
+        "title": "Yuzu Mango Cake",
+        "image":{
+            "src": "assets/img/bs5.jpg",
+            "alt": "Anniversary cake 5"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": 70,
+            "newPrice": 50
+        },
+        "occasion": 4
+    },
+    {
+        "id": 19,
+        "title": "Lemon Drizzle Cake",
+        "image":{
+            "src": "assets/img/bs6.jpg",
+            "alt": "Anniversary cake 6"
+        },
+        "taste": 3,
+        "price":{
+            "oldPrice": 45,
+            "newPrice": 25
+        },
+        "occasion": 4
+    }
+]
