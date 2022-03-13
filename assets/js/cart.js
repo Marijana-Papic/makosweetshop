@@ -76,7 +76,7 @@ function setItemLS(name,data){
                 <th class="text-center">QUANTITY</th>
                 <th class="text-center">PRICE</th>
                 <th class="text-center">TOTAL</th>
-                <th class="text-center"><a class="btn btn-sm btn-outline-danger" href="#" id="clear-cart">Clear Cart</a></th>
+                <th class="text-center"><a class="mp-btn p-2" href="#" id="clear-cart">Clear Cart</a></th>
             </tr>
         </thead>
         <tbody>`;
@@ -92,8 +92,8 @@ let html2 = `<div class="shopping-cart-footer">
     <div class="column text-lg">TOTAL PRICE: <span class="text-medium" id="total-sum">${sumPrices(products)}</span></div>
 </div>
 <div class="shopping-cart-footer">
-    <div class="column"><a class="btn btn-outline-secondary" href="shop.html"><i class="icon-arrow-left"></i>&nbsp;Back to Shopping</a></div>
-    <div class="column"><a class="btn btn-primary" id="finish" href="#" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Your cart" data-toast-message="is updated successfully!">Order</a></div>
+    <div class="column"><a class="mp-btn" href="shop.html">BACK TO SHOPPING</a></div>
+    <div class="column"><a class="mp-btn" id="finish" href="#" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Your cart" data-toast-message="is updated successfully!">ORDER</a></div>
 </div>` ;
 
 $("#shopping-cart").html(html+html2);
