@@ -144,8 +144,8 @@ var content = ` <div class="container-fluid bg-fw">
         <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
         <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
         <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-brands fa-youtube"></i></a>
-        <a href="sitemap.xml"><i class="fa fa-solid fa-sitemap"></i></a>
-        <a href="makoDoc.pdf"><i class="fa fa-solid fa-file"></i></a>
+        <a href="sitemap.xml" target="_blank"><i class="fa fa-solid fa-sitemap"></i></a>
+        <a href="makoDoc.pdf" target="_blank"><i class="fa fa-solid fa-file"></i></a>
     </div>
   </div>
   </div>
