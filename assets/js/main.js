@@ -18,7 +18,7 @@ var url = window.location.pathname;
 
 //HOME BEST SELLERS
 
-if(url == "/index.html") {
+if(url == "/makosweetshop/" || url=="/makosweetshop/index.html") {
   var slideIndex = 1;
 
   showDivs(slideIndex);
