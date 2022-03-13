@@ -27,8 +27,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
 
         <!-- JavaScript -->
-        <script src="assets/js/shop.js" defer></script>
         <script src="assets/js/main.js" defer></script>
+        <script src="assets/js/cart.js" defer></script>
+
         
 
         <!--Owl Carousel-->
@@ -47,12 +48,19 @@
               <div class="col-12">
                   <nav class="navbar navbar-expand-lg navbar-light my-3">
                       <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="assets/img/makoLogo.png" alt="Mako Logo."></a>
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/makoLogo.png" alt="Mako Logo."></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                           <!-- dinamicki nav -->
+                          <ul class="navbar-nav m-auto align-items-center" id="navMenu">
+                          </ul>
+                          <li><span class="cart ms-3 me-3">
+                            <a href="shoping-cart.html" class="cart-icon nav-link text-center">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="number"></span>
+                            </a>
+                            </span></li>
                         </div>
                       </div>
                   </nav>
@@ -69,22 +77,16 @@
                 <!--OCCASIONS-->
                 <h4>OCCASION</h4>
                 <ul class="list-group p-2" id="occasion">
-                        <li class="list-group-item">
-                        <input type="checkbox" value="1" class="occasion" name="brands"/> Wedding
-                        </li>
+                        
                 </ul>
                 <!--TASTE-->
                 <h4>BY FLAVOUR</h4>
                 <ul class="list-group p-2" id="taste">
-                    <li class="list-group-item">
-                    <input type="checkbox" value="1" class="taste" name="taste"/> Chocolate
-                    </li>
+                    
                 </ul>    
                 <h4>PRICE</h4>
                 <ul class="list-group p-2" id="price">
-                    <li class="list-group-item">
-                    <input type="checkbox" value="30" class="price" name="price"/> Under $30
-                    </li>
+                    
                 </ul>
                 <h4>SORT</h4>
                   <select id="sort" class="m-2 list-group-item">
@@ -119,7 +121,8 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
         <!--Owl Carousel-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
+
+

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Wedding cake",
+        "title": "#W4524 wedding cake",
         "image":{
             "src": "assets/img/wedding1.jpg",
             "alt": "Wedding Cake 1"
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "title": "Wedding cake",
+        "title": "#W6743 wedding cake",
         "image":{
             "src": "assets/img/wedding2.jpg",
             "alt": "Wedding cake 2"
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "title": "Wedding cake",
+        "title": "#W3753 wedding cake",
         "image":{
             "src": "assets/img/wedding3.jpg",
             "alt": "Wedding cake 3"
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "title": "Wedding cake",
+        "title": "#W9576 wedding cake",
         "image":{
             "src": "assets/img/wedding4.jpg",
             "alt": "Wedding cake 4"
@@ -57,7 +57,7 @@
     },
     {
         "id": 5,
-        "title": "Wedding cake",
+        "title": "#W8453 wedding cake",
         "image":{
             "src": "assets/img/wedding5.jpg",
             "alt": "Wedding cake 5"
@@ -71,7 +71,7 @@
     },
     {
         "id": 6,
-        "title": "Kids birthday cake",
+        "title": "#K3564 Kids cake",
         "image":{
             "src": "assets/img/kids1.jpg",
             "alt": "Kids cake 1"
@@ -85,7 +85,7 @@
     },
     {
         "id": 7,
-        "title": "Kids birthday cake",
+        "title": "#K6758 Kids cake",
         "image":{
             "src": "assets/img/kids2.jpg",
             "alt": "Kids cake 2"
@@ -99,7 +99,7 @@
     },
     {
         "id": 8,
-        "title": "Kids birthday cake",
+        "title": "#K8957 Kids cake",
         "image":{
             "src": "assets/img/kids3.jpg",
             "alt": "Kids cake 3"
@@ -113,7 +113,7 @@
     },
     {
         "id": 9,
-        "title": "Kids birthday cake",
+        "title": "#K2435 Kids cake",
         "image":{
             "src": "assets/img/kids4.jpg",
             "alt": "Kids cake 4"
@@ -127,7 +127,7 @@
     },
     {
         "id": 10,
-        "title": "Birthday cake",
+        "title": "#B8946 Birthday cake",
         "image":{
             "src": "assets/img/birthday1.jpg",
             "alt": "Birthday cake 4"
@@ -141,7 +141,7 @@
     },
     {
         "id": 11,
-        "title": "Birthday cake",
+        "title": "#B5467 Birthday cake",
         "image":{
             "src": "assets/img/birthday2.jpg",
             "alt": "Birthday cake 4"
@@ -155,7 +155,7 @@
     },
     {
         "id": 12,
-        "title": "Birthday cake",
+        "title": "#B3672 Birthday cake",
         "image":{
             "src": "assets/img/birthday3.jpg",
             "alt": "Birthday cake 4"
@@ -169,7 +169,7 @@
     },
     {
         "id": 13,
-        "title": "Birthday cake",
+        "title": "#B2857 Birthday cake",
         "image":{
             "src": "assets/img/birthday4.jpg",
             "alt": "Birthday cake 4"

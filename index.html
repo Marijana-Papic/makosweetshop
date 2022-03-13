@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
 
         <!-- jQuery -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
         <!-- JavaScript -->
         <script src="assets/js/main.js" defer></script>
@@ -45,12 +45,19 @@
               <div class="col-12">
                   <nav class="navbar navbar-expand-lg navbar-light my-3">
                       <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="assets/img/makoLogo.png" alt="Mako Logo."></a>
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/makoLogo.png" alt="Mako Logo."></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                          <!-- dinamicki nav -->
+                          <ul class="navbar-nav m-auto align-items-center" id="navMenu">
+                          </ul>
+                          <li><span class="cart ms-3 me-3">
+                            <a href="shoping-cart.html" class="cart-icon nav-link text-center">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="number"></span>
+                            </a>
+                            </span></li>
                         </div>
                       </div>
                   </nav>
@@ -164,9 +171,68 @@
         </div>
       </div>
     <!-- BEST SELLERS END  -->
-    <!-- Instagram Section Begin -->
-    
-    <!-- Instagram Section End -->
+    <!-- TESTIMONIALS -->
+<section class="testimonials my-3">
+	<div class="container">
+    <div class="heading">
+      <h2>HAPPY CUSTOMERS</h2>
+      <div class="underline"></div>
+    </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="assets/img/t1.jpg" alt="Testimonials 1."/>
+                <p>The cake looked absolutely incredible – thanks so much!</p>
+              </div>
+              <div class="testimonial-name">MONICA</div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="assets/img/t2.jpg" alt="Testimonials 2."/>
+                <p>We loved the cake! It was so yummy, and looked fantastic! Many thanks.</p>
+              </div>
+              <div class="testimonial-name">ANNA</div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="assets/img/t3.jpg" alt="Testimonials 3."/>
+                <p>I would like to say thank you so much for the wedding cake it was absolutely beautiful! We loved it and it also tasted delicious thank you!</p>
+              </div>
+              <div class="testimonial-name">LARA</div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="assets/img/t4.jpg" alt="Testimonials 4."/>
+                <p>Two years in a row for my husband's bday we have ordered the incredible cake made from 'Mako's cake shop!</p>
+              </div>
+              <div class="testimonial-name">MILLA</div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="assets/img/t5.jpg" alt="Testimonials 5."/>
+                <p>Professional, cakes are perfect in every aspect. You get what you pay for and you're satisfied.</p>
+              </div>
+              <div class="testimonial-name">ELENA</div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
     </main>
     <footer id="footer">
       <!-- dinamicki footer -->
@@ -180,7 +246,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
         <!--Owl Carousel-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </body>
 </html>
