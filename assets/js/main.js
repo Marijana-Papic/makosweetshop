@@ -234,7 +234,7 @@ function displayProduct(data){
   data = sort(data);
   
   let html = '';
-  
+  if(data.length > 0){
       for(let d of data){
           html +=`<div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
@@ -254,6 +254,11 @@ function displayProduct(data){
                       </div>
                     </div>
                   </div>`   
+    }
+  }
+  else{
+    html+=
+      `<div class="container m-5 alert alert-danger"><p>Sorry there are no products. </p></div>`;
   }
   
   $('#products').html(html);
