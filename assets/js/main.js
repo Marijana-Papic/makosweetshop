@@ -258,7 +258,7 @@ function displayProduct(data){
   }
   else{
     html+=
-      `<div class="container m-5 alert alert-danger"><p>Sorry there are no products. </p></div>`;
+      `<div class="container my-5 alert alert-danger"><p>Sorry there are no products. </p></div>`;
   }
   
   $('#products').html(html);
