@@ -189,7 +189,7 @@ function displayPrice(data){
   let html = "";
   for(const d of data){
       html += `<li class="list-group-item">
-                <input type="checkbox" value="${d.price}" class="price" /> Under$${d.price}
+                <input type="checkbox" value="${d.price}" class="price" /> Under $${d.price}
               </li>`
   }
   html += "<br/><br/>"
